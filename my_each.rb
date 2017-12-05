@@ -13,4 +13,3 @@ yield(array)
      array
    end
    array
- end
