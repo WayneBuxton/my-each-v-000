@@ -1,6 +1,5 @@
 require 'pry'
 def my_each(array)
-  block_given?
   counter = 0
   while counter < array.length
     yield (array[counter])
