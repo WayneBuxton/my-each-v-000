@@ -1,8 +1,8 @@
 require 'pry'
 def my_each(array)
-  index = 0
-  while index < array.length
-    index = index + 1
+  counter = 0
+  while counter < array.length
+    counter+= 1
   end
   binding.pry
 end
