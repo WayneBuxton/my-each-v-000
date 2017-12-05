@@ -4,5 +4,4 @@ def my_each(array)
   while counter < array.length
     counter+= 1
   end
-  binding.pry
 end
