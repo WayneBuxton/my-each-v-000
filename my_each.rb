@@ -8,8 +8,9 @@ def my_each(array)
 end
 
 
-yield(array)
+def yield(array)
    array.collect do |word|
      array
    end
    array
+ end
