@@ -12,5 +12,4 @@ def yield(array)
    array.collect do |word|
      array
    end
-   array
  end
