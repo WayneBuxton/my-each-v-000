@@ -8,4 +8,9 @@ def my_each(array)
   end
   array
 end
-end
+
+
+ def my_each(array)
+   array.collect do |word|
+     array
+   end
