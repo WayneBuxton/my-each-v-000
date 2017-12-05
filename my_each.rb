@@ -1,4 +1,7 @@
 require 'pry'
 def my_each(array)
-binding.pry  
+  index = 0 
+  while index < array.length
+    index = index + 1
+  end
 end
