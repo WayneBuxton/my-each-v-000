@@ -5,7 +5,6 @@ def my_each(array)
     yield (array[counter])
     counter+= 1
   end
-    array
 end
 
 
@@ -13,4 +12,5 @@ end
    array.collect do |word|
      array
    end
+   array
  end
